@@ -437,5 +437,122 @@ $second-color: #ff5656;
                 }
             }
         }
+    }
 
+    .world {
+        min-height: 900px;
+        background: url('../image/img/bg-world.png') center (center / cover) no-repeat;
+        padding: 57px 0 138px 0;
+
+        .lable {
+            position: relative;
+            margin: 0 auto;
+            width: 112px;
+            text-transform: uppercase;
+            text-align: center;
+            background-color: white;
+            padding: 6px 12px 6px 12px;
+            color: black;
+            font-size: 11px;
+            font-weight: 300;
+            z-index: 1;
+          }
+
+        .title {
+            position: relative;
+            margin-bottom: 0;
+            color: #ffffff;
+            font-size: 38px;
+            font-weight: 700;
+            text-align: center;
+            margin-top: 20px;
+            z-index: 1;
+            text-transform: uppercase;
+          }
+        
+        .subtitle {
+            position: relative;
+            margin-top: 20;
+            color: #ffffff;
+            font-size: 17px;
+            font-weight: 400;
+            text-align: center;
+            z-index: 1;
+          }
+
+        .look {
+            color: $main-color;
+            display: block;
+            margin-top: 900px;
+            padding-top: 400px;
+            text-align: center;
+            text-transform: uppercase;
+            .town {
+                color: $main-color;
+            }
+        }
+    }
+
+    .footer {
+        min-height: 250px;
+
+        .divider {
+            width: 370px;
+            height: 4px;
+            background-color: $main-color;
+            margin: 0 auto;
+            margin-top: 18px;
+        }
+
+        .footer-menu {
+            display: flex;
+            width: 600px;
+            justify-content: space-between;
+            padding: 13px 70px;
+            margin: 0;
+            margin-top: 20px;
+            margin-left: 255px;
+            list-style-type: none;
+          
+            .footer-link {
+              color: #000000;
+              font-family: Roboto;
+              font-size: 20px;
+              font-weight: 400;
+              text-transform: uppercase;
+            }
+          
+        //     .footer-item {
+        //       padding-right: 28px;
+        //     }
+        //   }
+        }
+        .footer-list {
+            display: flex;
+            width: 800px;
+            justify-content: space-between;
+            padding: 13px 100px;
+            margin: 0;
+            // margin-top: 10px;
+            margin-left: 190px;
+            list-style-type: none;
+        
+
+        .footer-li {
+            color: #000000;
+              font-family: Roboto;
+              font-size: 20px;
+              font-weight: 300;
+              text-transform: uppercase;
+             }
+        }
+
+        .rus {
+            font-weight: 400;
+            margin-top: 40px;
+            text-transform: uppercase;
+            color: $main-color;
+            text-align: center;
+        } 
 }
+
